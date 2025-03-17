@@ -1,8 +1,10 @@
 {
   "name": "@karpeleslab/klbfw-dynfetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "klbfw-dynfetch": "bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
