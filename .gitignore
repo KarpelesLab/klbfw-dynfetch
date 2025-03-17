@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# dotenv environment variables file
+.env
+.env.test
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# npm pack output
+*.tgz

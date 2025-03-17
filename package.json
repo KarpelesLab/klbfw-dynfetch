@@ -1,0 +1,28 @@
+{
+  "name": "@karpeleslab/klbfw-dynfetch",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "bin": {
+    "klbfw-dynfetch": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "html",
+    "render",
+    "dynamic",
+    "fetch"
+  ],
+  "author": "KarpelesLab",
+  "license": "ISC",
+  "description": "A utility for fetching dynamically rendered HTML content from websites using Puppeteer",
+  "dependencies": {
+    "puppeteer": "^24.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
